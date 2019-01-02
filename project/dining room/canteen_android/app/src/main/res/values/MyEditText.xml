@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <!--colorControlNormal 为没有获取焦点时候下划线的颜色-->
+        <item name="colorControlNormal">#ff6347</item>
+        <!--colorControlActivated 为获取焦点时候光标与下划线的颜色-->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改密码"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <!--输入旧密码-->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="旧密码"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:theme="@style/MyEditText"
+            android:inputType="textPassword"
+            android:hint="请填写旧密码"/>
+    </LinearLayout>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#C0C0C0"/>
+
+    <!--输入新密码-->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="新密码"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:theme="@style/MyEditText"
+            android:hint="请填写新密码"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#C0C0C0"
+        android:layout_gravity="center_horizontal"/>
+    <!--密码格式要求-->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="密码长度为8~32位，须包含 数字、字母、符号至少2种或以上元素"/>
+    </LinearLayout>
+    <!--确认按钮-->
+    <Button
+        android:id="@+id/btn_OK"
+        android:text="确认"
+        android:textColor="#F5F5F5"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:textSize="23dp"
+        android:background="@drawable/shape"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

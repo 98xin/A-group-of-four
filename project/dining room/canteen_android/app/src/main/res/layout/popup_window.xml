@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:background="#F5F5F5"
+    android:id="@+id/popupwindow_layout">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:id="@+id/btn_popup_account"
+        android:background="@drawable/background_1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FF6347"
+        android:textSize="20dp"/>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#696969"
+    android:id="@+id/popup_view1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换账户"
+        android:id="@+id/btn_popup_change"
+        android:background="@drawable/background2"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FF6347"
+        android:textSize="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#696969"
+        android:id="@+id/popup_view2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/btn_popup_cancel"
+        android:background="@drawable/background3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+</RelativeLayout>
